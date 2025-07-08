@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "example-bucket" {
   force_destroy = true
 
   tags = {
-    Name        = "ce10-laoniu-s3Bucket"
+    Name        = "ce10-laoniu-s3Bucket-1"
     Environment = "Dev"
   }
 }

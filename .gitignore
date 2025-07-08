@@ -1,0 +1,35 @@
+# === Terraform files ===
+*.tfstate
+*.tfstate.*
+.terraform/
+.crash/
+*.log
+
+# Backup and override files
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local settings
+.terraform.lock.hcl
+.terraform.tfstate.backup
+
+# Sensitive or user-specific files
+*.pem
+*.key
+*.crt
+*.zip
+*.tar.gz
+
+# IDE/editor-specific (optional)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS/Linux/Windows system files
+.DS_Store
+Thumbs.db
